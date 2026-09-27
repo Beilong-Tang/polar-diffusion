@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "polar-diffusion"
 version = "0.1.0"
 description = "Polar diffusion models"
-requires-python = ">=3.9"
+requires-python = ">=3.8"
 dependencies = [
     "torch>=1.12",
     "torchvision",
