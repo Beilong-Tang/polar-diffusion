@@ -25,7 +25,7 @@ stop_stage=${2:-2}
 
 # Training data: a folder of 64x64 images, a .npy of uint8 images [N, 64, 64, 3],
 # or a WebDataset shard pattern such as "/data/imagenet64-{0001..1282}.tar".
-DATA_DIR=/work/btang1/data/2026-07-29/Imagenet64_process_script/data/imagenet64_npy/imagenet64.npy
+DATA_DIR=/work/btang1/data/Imagenet64_process_script/data/imagenet64_npy/imagenet64.npy
 RADIUS_STATS=configs/imagenet64_radius.json
 LOGDIR=logs/imagenet64_polar
 NUM_GPUS=1
