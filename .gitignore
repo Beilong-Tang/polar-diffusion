@@ -226,3 +226,5 @@ output/
 precomputed/
 _cache/
 datasets/
+
+_logs_slurm/
