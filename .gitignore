@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.vscode
+
+# experiment outputs
+chkpts/
+logs/
+output/
+precomputed/
+_cache/
+datasets/
