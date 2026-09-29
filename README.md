@@ -1,8 +1,5 @@
 # polar-diffusion
 
-TODO:
-- [ ] remove test script imagenet64.slurm
-
 Code for polar diffusion models. A noisy sample $y_t$ is written in polar form
 $y_t = r_t x_t$, with radius $r_t = \lVert y_t \rVert$ and direction $x_t$ on the unit sphere.
 The network sees the direction as its image input and the radius through an
