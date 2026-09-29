@@ -10,7 +10,7 @@ embedding. It predicts the noise $\epsilon$ split into two parts:
 
 Training minimizes
 
-$$\mathcal{L} = w_x \,\tfrac{1}{n}\lVert \epsilon_x - \hat\epsilon_x \rVert^2 + \tfrac{w_r}{n}\,(\epsilon_r - \hat\epsilon_r)^2 .$$
+$$\mathcal{L} = w_x \tfrac{1}{n}\lVert \epsilon_x - \hat\epsilon_x \rVert^2 + \tfrac{w_r}{n}(\epsilon_r - \hat\epsilon_r)^2 .$$
 
 Samples come from the reverse SDE in polar coordinates: $\rho = \log r$ moves on
 the real line and $x$ moves on the sphere through the exponential map. The model
